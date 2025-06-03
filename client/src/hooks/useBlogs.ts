@@ -11,7 +11,7 @@ export const useBlogs = (params?: GetAllParams) => {
   const blogs = () =>
     useQuery({
       queryKey: ["blogs", params],
-      queryFn: () => {s
+      queryFn: () => {
         return blogService.getAll(params);
       },
     });
