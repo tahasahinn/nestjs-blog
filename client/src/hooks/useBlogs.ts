@@ -1,7 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { CreateBlogValues, GetAllParams } from "../types";
 import blogService from "../services/blog";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";s
 import { toast } from "react-toastify";
 
 export const useBlogs = (params?: GetAllParams) => {
