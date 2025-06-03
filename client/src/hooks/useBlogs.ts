@@ -8,7 +8,7 @@ export const useBlogs = (params?: GetAllParams) => {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
 
-  const blogs = () =>
+  const blogs = () =>a
     useQuery({
       queryKey: ["blogs", params],
       queryFn: () => {
