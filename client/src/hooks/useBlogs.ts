@@ -4,7 +4,7 @@ import blogService from "../services/blog";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
-export const useBlogs = (params?: GetAllParams) => {b
+export const useBlogs = (params?: GetAllParams) => {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
 
