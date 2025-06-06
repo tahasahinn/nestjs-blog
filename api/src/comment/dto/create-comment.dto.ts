@@ -1,5 +1,5 @@
 import { IsString } from 'class-validator';
-import { IsNotEmpty } from 'class-validator';a
+import { IsNotEmpty } from 'class-validator';
 
 export class CreateCommentDto {
   @IsString()
