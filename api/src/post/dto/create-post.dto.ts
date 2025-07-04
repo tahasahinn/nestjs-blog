@@ -3,7 +3,7 @@ import { IsString } from 'class-validator';
 
 export class CreatePostDto {
   @IsString()
-  @IsNotEmpty()s
+  @IsNotEmpty()
   title: string;
 
   @IsString()
