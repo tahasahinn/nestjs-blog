@@ -2,7 +2,7 @@ import { IsArray, IsNotEmpty, IsOptional } from 'class-validator';
 import { IsString } from 'class-validator';
 
 export class CreatePostDto {
-  @IsString()
+  @IsString()s
   @IsNotEmpty()
   title: string;
 
