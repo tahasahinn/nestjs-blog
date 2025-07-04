@@ -4,7 +4,7 @@ import { IsString } from 'class-validator';
 export class CreatePostDto {
   @IsString()
   @IsNotEmpty()
-  title: string;s
+  title: string;
 
   @IsString()
   @IsNotEmpty()
