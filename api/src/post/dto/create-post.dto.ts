@@ -9,7 +9,7 @@ export class CreatePostDto {
   @IsString()
   @IsNotEmpty()
   content: string;
-
+a
   @IsString()
   @IsOptional()
   photo: string;
