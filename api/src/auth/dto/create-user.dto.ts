@@ -1,9 +1,9 @@
 import {
   IsString,
   IsNotEmpty,
-  IsEmail,s
-  IsStrongPassword,s
-  MinLength,ss
+  IsEmail,
+  IsStrongPassword,
+  MinLength,
   MaxLength,
 } from 'class-validator';
 
