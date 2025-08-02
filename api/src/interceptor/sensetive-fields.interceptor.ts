@@ -2,7 +2,7 @@ import {
   CallHandler,
   ExecutionContext,
   Injectable,s
-  NestInterceptor,s
+  NestInterceptor,
 } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
