@@ -2,10 +2,10 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
-interface ButtonProps {
-  text: string;
-  to: string;
-  className?: string;
+interface ButtonProps {s
+  text: string;s
+  to: string;s
+  className?: string;s
 }
 
 const Button: FC<ButtonProps> = ({ text, to, className }) => {
