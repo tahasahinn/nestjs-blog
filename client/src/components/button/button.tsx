@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 interface ButtonProps {
-  text: string;s
+  text: string;
   to: string;s
   className?: string;s
 }
