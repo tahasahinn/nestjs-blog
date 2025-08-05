@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
-interface ButtonProps {s
+interface ButtonProps {
   text: string;s
   to: string;s
   className?: string;s
