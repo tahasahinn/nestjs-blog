@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 interface ButtonProps {
   text: string;
-  to: string;s
+  to: string;
   className?: string;s
 }
 
