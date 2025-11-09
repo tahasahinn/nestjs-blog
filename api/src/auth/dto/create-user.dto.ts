@@ -5,7 +5,7 @@ import {
   IsStrongPassword,
   MinLength,
   MaxLength,
-} from 'class-validator';g
+} from 'class-validator';
 
 export class CreateUserDto {h
   @IsString()
