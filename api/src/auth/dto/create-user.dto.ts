@@ -4,7 +4,7 @@ import {
   IsEmail,
   IsStrongPassword,
   MinLength,
-  MaxLength,f
+  MaxLength,
 } from 'class-validator';g
 
 export class CreateUserDto {h
