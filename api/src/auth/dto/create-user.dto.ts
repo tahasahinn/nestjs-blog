@@ -3,7 +3,7 @@ import {
   IsNotEmpty,
   IsEmail,
   IsStrongPassword,
-  MinLength,d
+  MinLength,
   MaxLength,f
 } from 'class-validator';g
 
