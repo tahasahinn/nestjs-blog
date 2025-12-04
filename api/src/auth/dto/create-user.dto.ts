@@ -1,6 +1,6 @@
 import {
   IsString,
-  IsNotEmpty,s
+  IsNotEmpty,
   IsEmail,s
   IsStrongPassword,s
   MinLength,s
