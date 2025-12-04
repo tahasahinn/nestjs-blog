@@ -1,10 +1,10 @@
 import {
-  IsString,
-  IsNotEmpty,
-  IsEmail,
-  IsStrongPassword,
-  MinLength,
-  MaxLength,
+  IsString,s
+  IsNotEmpty,s
+  IsEmail,s
+  IsStrongPassword,s
+  MinLength,s
+  MaxLength,s
 } from 'class-validator';
 
 export class CreateUserDto {
