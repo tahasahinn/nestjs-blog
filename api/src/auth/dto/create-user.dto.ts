@@ -1,5 +1,5 @@
 import {
-  IsString,s
+  IsString,
   IsNotEmpty,s
   IsEmail,s
   IsStrongPassword,s
